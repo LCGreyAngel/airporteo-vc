@@ -1,3 +1,9 @@
+20.07.20233 ver 1.2.4
+   - Redesigned backend, few bugfixes
+
+20.07.20233 ver 1.2.3
+   - Redesigned backend, few bugfixes
+
 17.07.20233 ver 1.2.2
    - Redesigned backend, few bugfixes
 
