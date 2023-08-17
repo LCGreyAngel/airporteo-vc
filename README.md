@@ -1,5 +1,5 @@
 # airporteo-vc
-v1.2.1
+v1.2.2
 
 requires: 5.5
 
