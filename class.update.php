@@ -120,7 +120,7 @@ class AirporteoVCPluginUpdater {
         $response->download_link = $downloadLink;
 
         // We're going to parse the GitHub markdown release notes, include the parser
-        require_once( plugin_dir_path( __FILE__ ) . "Parsedown.php" );
+        require_once( plugin_dir_path( __FILE__ ) . "parsedown.php" );
 
         // Create tabs in the lightbox
         $response->sections = array(
