@@ -4,7 +4,7 @@ Plugin Name: Visual Composer Airporteo Elements
 _Plugin URI: https://airporteo.com
 Description: Airporteo Core Plugin. Visual Composer Elements for Airporteo pages.
 Author: Airporteo
-Version: 1.2.0
+Version: 1.2.1
 Author URI: https://airporteo.com
 */
 
