@@ -539,8 +539,9 @@ function airporteo_vc_map_init() {
 
 add_action('vc_after_init', 'airporteo_vc_map_init');
 
-
-new AirporteoVCPluginUpdater( __FILE__, 'LCGreyAngel', "airporteo-vc" );
+if ( is_admin() ) {
+	new AirporteoVCPluginUpdater( __FILE__, 'LCGreyAngel', "airporteo-vc" );
+}
 
 add_filter( 'auto_update_plugin', 'auto_update_airporteo_vc', 10, 2 );
 function auto_update_airporteo_vc( $update, $item ){
